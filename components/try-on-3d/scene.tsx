@@ -12,6 +12,8 @@ import {
   type Body3D, type Section,
 } from "./body3d";
 import { fabricFor, ribFor } from "./fabric";
+import { DEFAULT_APPEARANCE, type Appearance } from "./appearance";
+import { RealMannequin } from "./mannequin";
 
 /** Circumference ease in cm, matching the 2D renderer; turned into an offset from the skin. */
 const EASE_CM = { slim: 2, regular: 5, relaxed: 10 } as const;
@@ -220,15 +222,42 @@ function ViewRig({ view, controls }: { view: { name: View; nonce: number }; cont
   return null;
 }
 
+/** Glides the camera between the full figure and a close-up of the face; the user can still orbit and zoom. */
+function FocusRig({ focus, k, controls }: { focus: "body" | "face"; k: Body3D; controls: React.RefObject<OrbitControlsImpl | null> }) {
+  const goal = React.useRef<{ target: THREE.Vector3; distance: number } | null>(null);
+  React.useEffect(() => {
+    goal.current = focus === "face"
+      ? { target: new THREE.Vector3(0, k.chinY + k.headH * 0.55, 0), distance: 0.85 }
+      : { target: new THREE.Vector3(0, k.H * 0.53, 0), distance: 3.9 };
+  }, [focus, k]);
+  useFrame(({ camera }) => {
+    const c = controls.current;
+    const g = goal.current;
+    if (!c || !g) return;
+    c.target.lerp(g.target, 0.12);
+    const offset = camera.position.clone().sub(c.target);
+    const distance = THREE.MathUtils.lerp(offset.length(), g.distance, 0.12);
+    camera.position.copy(c.target).add(offset.setLength(distance));
+    c.update();
+    if (c.target.distanceTo(g.target) < 0.002 && Math.abs(distance - g.distance) < 0.005) goal.current = null;
+  });
+  return null;
+}
+
+
 export interface SceneProps {
   body: BodyMeasurements;
   top: Garment | null;
   bottom: Garment | null;
   view: { name: View; nonce: number };
   spin: boolean;
+  appearance?: Appearance;
+  focus?: "body" | "face";
+  /** Drop the top onto the body with cloth physics. */
+  drape?: boolean;
 }
 
-export default function TryOnScene({ body, top, bottom, view, spin }: SceneProps) {
+export default function TryOnScene({ body, top, bottom, view, spin, appearance = DEFAULT_APPEARANCE, focus = "body", drape = false }: SceneProps) {
   const k = React.useMemo(() => body3d(body), [body]);
   const controls = React.useRef<OrbitControlsImpl | null>(null);
   const bottomD = bottom ? offsetFor(bottom) : 0;
@@ -244,16 +273,25 @@ export default function TryOnScene({ body, top, bottom, view, spin }: SceneProps
       </directionalLight>
       <directionalLight position={[-2.2, 1.8, -1.6]} intensity={0.55} />
       <group>
-        <Mannequin k={k} skin={body.skin} />
-        {bottom && <Bottom3D g={bottom} k={k} d={bottomD} />}
-        {top && <Top3D g={top} k={k} d={topD} />}
+        {/* The hand-built body and its garments stand in until the MPFB model has downloaded. */}
+        <React.Suspense
+          fallback={
+            <>
+              <Mannequin k={k} skin={body.skin} />
+              {bottom && <Bottom3D g={bottom} k={k} d={bottomD} />}
+              {top && <Top3D g={top} k={k} d={topD} />}
+            </>
+          }
+        >
+          <RealMannequin appearance={appearance} body={body} top={top} bottom={bottom} drape={drape} />
+        </React.Suspense>
       </group>
       <ContactShadows position={[0, 0.001, 0]} opacity={0.38} scale={2.4} blur={2.6} far={1.2} />
       <OrbitControls
         ref={controls}
         target={[0, k.H * 0.53, 0]}
         enablePan={false}
-        minDistance={1.3}
+        minDistance={0.5}
         maxDistance={5.5}
         minPolarAngle={0.35}
         maxPolarAngle={Math.PI / 2 + 0.05}
@@ -262,6 +300,7 @@ export default function TryOnScene({ body, top, bottom, view, spin }: SceneProps
         enableDamping
       />
       <ViewRig view={view} controls={controls} />
+      <FocusRig focus={focus} k={k} controls={controls} />
     </Canvas>
   );
 }

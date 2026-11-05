@@ -1,3 +1,4 @@
+import { parseAppearance, type Appearance } from "@/components/try-on-3d/appearance";
 import { DEFAULT_BODY, type BodyMeasurements } from "./body";
 
 /** Everything the try-on page remembers between visits. */
@@ -6,6 +7,8 @@ export interface Profile {
   outfit: { topId: string | null; bottomId: string | null };
   /** True once the body came from photos rather than the built-in estimate. */
   measured: boolean;
+  /** Face, sex and body type for the 3D mannequin. Absent until the 3D studio saves one. */
+  appearance?: Appearance;
   updatedAt?: string;
 }
 
@@ -41,6 +44,7 @@ export function parseProfile(input: unknown): Profile | null {
     body,
     outfit: { topId: id(o.topId), bottomId: id(o.bottomId) },
     measured: raw.measured === true,
+    appearance: raw.appearance === undefined ? undefined : parseAppearance(raw.appearance),
     updatedAt: typeof raw.updatedAt === "string" ? raw.updatedAt : undefined,
   };
 }

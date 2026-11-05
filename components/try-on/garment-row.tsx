@@ -18,7 +18,9 @@ export function GarmentRow({ g, selected, onSelect }: { g: Garment; selected: bo
       <span aria-hidden="true" className="size-8 shrink-0 rounded-md ring-1 ring-black/10" style={swatch(g)} />
       <span className="min-w-0 flex-1">
         <span className="block truncate text-sm font-medium">{g.name}</span>
-        <span className="block text-xs text-muted-foreground">{g.source === "your photo" ? "From your photo" : "Demo item"} · {g.fit} fit</span>
+        <span className="block truncate text-xs text-muted-foreground">
+          {g.source === "your photo" ? `From your photo · ${g.fit} fit` : g.source === "template" ? `Template · ${g.credit ?? "MakeHuman"}` : `Demo item · ${g.fit} fit`}
+        </span>
       </span>
       <span aria-hidden="true" className={`size-2 rounded-full ${selected ? "bg-foreground" : "bg-transparent ring-1 ring-black/20"}`} />
     </button>

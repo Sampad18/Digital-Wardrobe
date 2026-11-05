@@ -1,0 +1,733 @@
+{
+  "source": "MPFB 2.0.18 + MakeHuman system assets (CC0)",
+  "base": {
+    "heightCm": 172.91,
+    "shoulderCm": 47.88,
+    "chestCm": 92.93,
+    "waistCm": 75.12,
+    "hipCm": 93.12,
+    "inseamCm": 80.67
+  },
+  "morphs": {
+    "female": {
+      "heightCm": -13.79,
+      "shoulderCm": -6.95,
+      "chestCm": -8.09,
+      "waistCm": -5.82,
+      "hipCm": -1.08,
+      "inseamCm": -8.94
+    },
+    "weight-min": {
+      "heightCm": 0.0,
+      "shoulderCm": -0.37,
+      "chestCm": -0.58,
+      "waistCm": -5.47,
+      "hipCm": -4.74,
+      "inseamCm": 1.2
+    },
+    "weight-max": {
+      "heightCm": 0.0,
+      "shoulderCm": 2.71,
+      "chestCm": 2.78,
+      "waistCm": 10.84,
+      "hipCm": 6.23,
+      "inseamCm": 0.0
+    },
+    "muscle-min": {
+      "heightCm": 0.0,
+      "shoulderCm": -0.19,
+      "chestCm": 1.98,
+      "waistCm": 14.99,
+      "hipCm": 9.41,
+      "inseamCm": 0.8
+    },
+    "muscle-max": {
+      "heightCm": 0.0,
+      "shoulderCm": 1.81,
+      "chestCm": -3.05,
+      "waistCm": 0.59,
+      "hipCm": -2.64,
+      "inseamCm": 0.8
+    },
+    "height-min": {
+      "heightCm": -35.57,
+      "shoulderCm": -11.06,
+      "chestCm": -11.63,
+      "waistCm": -3.99,
+      "hipCm": -15.78,
+      "inseamCm": -21.47
+    },
+    "height-max": {
+      "heightCm": 70.17,
+      "shoulderCm": 19.6,
+      "chestCm": 17.23,
+      "waistCm": 25.18,
+      "hipCm": 28.22,
+      "inseamCm": 43.05
+    },
+    "shoulders-incr": {
+      "heightCm": 0.0,
+      "shoulderCm": 4.98,
+      "chestCm": 0.66,
+      "waistCm": 0.0,
+      "hipCm": 0.0,
+      "inseamCm": 0.0
+    },
+    "shoulders-decr": {
+      "heightCm": 0.0,
+      "shoulderCm": -2.7,
+      "chestCm": -0.89,
+      "waistCm": 0.0,
+      "hipCm": 0.0,
+      "inseamCm": 0.0
+    },
+    "chest-incr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": 14.26,
+      "waistCm": 0.0,
+      "hipCm": 0.0,
+      "inseamCm": 0.0
+    },
+    "chest-decr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": -13.97,
+      "waistCm": 0.0,
+      "hipCm": 0.0,
+      "inseamCm": 0.0
+    },
+    "waist-incr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": 0.17,
+      "waistCm": 10.32,
+      "hipCm": 0.0,
+      "inseamCm": 0.0
+    },
+    "waist-decr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": -0.09,
+      "waistCm": -9.99,
+      "hipCm": 0.0,
+      "inseamCm": 0.0
+    },
+    "hips-incr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": 0.0,
+      "waistCm": 0.37,
+      "hipCm": 17.89,
+      "inseamCm": 1.2
+    },
+    "hips-decr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": 0.0,
+      "waistCm": -0.16,
+      "hipCm": -9.45,
+      "inseamCm": 0.0
+    },
+    "legs-incr": {
+      "heightCm": 18.47,
+      "shoulderCm": 5.91,
+      "chestCm": -5.39,
+      "waistCm": 5.38,
+      "hipCm": 4.69,
+      "inseamCm": 18.34
+    },
+    "legs-decr": {
+      "heightCm": -13.4,
+      "shoulderCm": -4.7,
+      "chestCm": 1.38,
+      "waistCm": 1.89,
+      "hipCm": -5.32,
+      "inseamCm": -12.42
+    },
+    "belly-incr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": 0.0,
+      "waistCm": 12.68,
+      "hipCm": 0.01,
+      "inseamCm": 0.0
+    },
+    "belly-decr": {
+      "heightCm": 0.0,
+      "shoulderCm": 0.0,
+      "chestCm": 0.0,
+      "waistCm": -0.9,
+      "hipCm": -0.0,
+      "inseamCm": 0.0
+    }
+  },
+  "parts": [
+    "Body",
+    "Eyebrows",
+    "Eyelashes",
+    "Eyes",
+    "Garment-cargo",
+    "Garment-halterdress",
+    "Garment-hoodie",
+    "Garment-jeans",
+    "Garment-knit",
+    "Garment-pencilskirt",
+    "Garment-polo",
+    "Garment-shiftdress",
+    "Garment-shirt",
+    "Garment-shorts",
+    "Garment-shorttrousers",
+    "Garment-sweater",
+    "Garment-tank",
+    "Garment-tee",
+    "Garment-tightjeans",
+    "Garment-trousers",
+    "Garment-vneck",
+    "Hair-afro01",
+    "Hair-bob01",
+    "Hair-bob02",
+    "Hair-braid01",
+    "Hair-long01",
+    "Hair-ponytail01",
+    "Hair-short01",
+    "Hair-short02",
+    "Hair-short03",
+    "Hair-short04",
+    "Mustache-chevron",
+    "Mustache-handlebar",
+    "Mustache-horseshoe",
+    "Mustache-pencil",
+    "Mustache-walrus"
+  ],
+  "garments": {
+    "polo": {
+      "asset": "namuhekam_male_polo_shirt",
+      "normalMap": true
+    },
+    "tee": {
+      "asset": "elvs_crude_t-shirt_male",
+      "normalMap": false
+    },
+    "sweater": {
+      "asset": "toigo_fisherman_sweater",
+      "normalMap": true
+    },
+    "shorts": {
+      "asset": "cortu_jeans_shorts",
+      "normalMap": true
+    },
+    "cargo": {
+      "asset": "cortu_cargo_pants",
+      "normalMap": true
+    },
+    "shiftdress": {
+      "asset": "toigo_shift_dress",
+      "normalMap": false
+    },
+    "halterdress": {
+      "asset": "toigo_halter_dress_knee_length",
+      "normalMap": false
+    },
+    "shirt": {
+      "asset": "elvs_male_shirt_untucked_bd1",
+      "normalMap": false
+    },
+    "hoodie": {
+      "asset": "elvs_hooded_sweat_jacket1",
+      "normalMap": true
+    },
+    "tank": {
+      "asset": "elvs_male_tankshirt1",
+      "normalMap": false
+    },
+    "knit": {
+      "asset": "mindfront_knitted_sweater_01",
+      "normalMap": false
+    },
+    "jeans": {
+      "asset": "punkduck_male_classic_jeans",
+      "normalMap": true
+    },
+    "trousers": {
+      "asset": "elvs_male_trouser",
+      "normalMap": false
+    },
+    "shorttrousers": {
+      "asset": "elvs_male_trouser_short_1",
+      "normalMap": false
+    },
+    "pencilskirt": {
+      "asset": "elvs_pencil_skirt",
+      "normalMap": true
+    },
+    "tightjeans": {
+      "asset": "punkduck_female_tight_jeans",
+      "normalMap": true
+    },
+    "vneck": {
+      "asset": "punkduck_v_neck_top",
+      "normalMap": true
+    },
+    "trunks": {
+      "asset": "mindfront_male_swimming_trunks_01",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "longskirt": {
+      "asset": "toigo_long_full_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "basictee": {
+      "asset": "toigo_basic_tucked_t-shirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "womenstee": {
+      "asset": "joepal_crude_t-shirt_female",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "camisole": {
+      "asset": "toigo_camisole_top",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "keyholetank": {
+      "asset": "toigo_keyhole_tank_top",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "turtlehalter": {
+      "asset": "toigo_turtleneck_halter_top",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "bodice": {
+      "asset": "toigo_bodice-style_top",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "tieshirt": {
+      "asset": "elvs_male_shirt_tie_tucked1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "stripedshirt": {
+      "asset": "ews_striped_shirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "oldsweater": {
+      "asset": "janexx_old_female_sweater",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "cardigan": {
+      "asset": "mindfront_cardigan_long_open_front",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "knit2": {
+      "asset": "mindfront_knitted_sweater_02",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "lusekofta": {
+      "asset": "mindfront_lusekofta",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "laceblouse": {
+      "asset": "punkduck_lace_up_blouse",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "offshoulder": {
+      "asset": "punkduck_off-shoulder_long-sleeve_top",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "bohotop": {
+      "asset": "elvs_male_boho_top1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "camotee": {
+      "asset": "drednicolson_short-tail_camo_tee",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "logotee": {
+      "asset": "elvs_male_logo_tshirt1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "muscle": {
+      "asset": "elvs_male_muscle_shirt1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "peasant": {
+      "asset": "elvs_ruffle_sleeve_peasant_blouse_1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "tanktop": {
+      "asset": "mindfront_tank_top_01",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "highneckcrop": {
+      "asset": "punkduck_high_neck_crop_top",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "retrotop": {
+      "asset": "punkduck_retro_top",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "sleevelesscrop": {
+      "asset": "punkduck_sleeveless_crop_top",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "sleevelessshirt": {
+      "asset": "punkduck_sleeveless_shirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "spaghetti": {
+      "asset": "punkduck_spaghetti_strap_tank_top",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "tubetop": {
+      "asset": "punkduck_tube_top",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "wintercoat": {
+      "asset": "punkduck_winter_coat",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "harem": {
+      "asset": "toigo_harem_pants",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "wool": {
+      "asset": "toigo_wool_pants",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "skinny": {
+      "asset": "elvs_disco_pants_skinny",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "elephant": {
+      "asset": "elvs_gored_elephant_pants",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "bootcut": {
+      "asset": "elvs_jeans_bootcut",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "straightjeans": {
+      "asset": "elvs_jeans_straight_leg",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "chaintrousers": {
+      "asset": "elvs_male_trouser_with_chain",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "womenstrousers": {
+      "asset": "mindfront_female_trousers_1",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "chinos": {
+      "asset": "mindfront_male_trousers_1",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "worktrousers": {
+      "asset": "mindfront_male_trousers_2",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "chinoshorts": {
+      "asset": "elvs_male_trouser_short_2",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "retroshorts": {
+      "asset": "elvs_retro_girly_shorts1",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "shortjeans": {
+      "asset": "punkduck_female_short_jeans",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "swimshorts": {
+      "asset": "elvs_male_swim_shorts1",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "miniskirt": {
+      "asset": "frankyaye_mini_skirt_01",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "tieredmini": {
+      "asset": "toigo_tiered_mini_skirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "tiered": {
+      "asset": "toigo_tiered_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "laceruffle": {
+      "asset": "toigo_skirt_with_lace_ruffle",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "asymskirt": {
+      "asset": "elvs_asymmetrical_skirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "midi": {
+      "asset": "elvs_gored_midi_skirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "plaidmini": {
+      "asset": "elvs_pleated_plaid_mini_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "pleatedmini": {
+      "asset": "mtknife_pleated_mini_skirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "blackmini": {
+      "asset": "punkduck_black_mini_skirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "jeanskirt": {
+      "asset": "punkduck_jeans_skirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "polkaskirt": {
+      "asset": "punkduck_retro_polka_dot_skirt",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "denimmini": {
+      "asset": "scsouza_mini_denin_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "flapper": {
+      "asset": "aethelraed_flapper_dress",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "bodicedress": {
+      "asset": "toigo_bodice_dress_with_lace_ruffle_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "camidress": {
+      "asset": "toigo_camisole_dress_with_full_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "cutout": {
+      "asset": "toigo_cut_out_dress",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "tiereddress": {
+      "asset": "toigo_dress_with_tiered_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "haltermidi": {
+      "asset": "toigo_halter_dress_midi",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "fluted": {
+      "asset": "toigo_halter_dress_with_fluted_skirt",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "keyholedress": {
+      "asset": "toigo_keyhole_neck_dress",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "ruffledress": {
+      "asset": "toigo_strapless_ruffle_top_dress",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "halterlong": {
+      "asset": "elvs_halter_dress_long",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "haltermini": {
+      "asset": "elvs_halter_dress_mini",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "sixties": {
+      "asset": "elvs_simple_60s_dress",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "sheath": {
+      "asset": "elvs_simple_fashion_dress_1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "sheath2": {
+      "asset": "elvs_simple_fashion_dress_2",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "partydress": {
+      "asset": "elvs_frilled_party_dress",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "hippy": {
+      "asset": "elvs_fringe_hippy_dress",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "goddess": {
+      "asset": "elvs_goddess_dress1",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "daydress": {
+      "asset": "mindfront_f_dress_01",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "wrapdress": {
+      "asset": "mindfront_f_dress_02",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "pleateddress": {
+      "asset": "mindfront_f_dress_03",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "shirtdress": {
+      "asset": "mindfront_f_dress_04",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "cocktail": {
+      "asset": "punkduck_black_cocktail_dress",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "gown": {
+      "asset": "punkduck_evening_gown",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "tubedress": {
+      "asset": "punkduck_tube_dress",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "qipao": {
+      "asset": "punkduck_middle_length_qipao",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "tennisdress": {
+      "asset": "punkduck_tennis_dress",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "hoodiedress": {
+      "asset": "elvs_sporty_tracksuit_hoodie_dress1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "kimono": {
+      "asset": "mindfront_kimono",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "suittie": {
+      "asset": "toigo_male_suit_tie_and_jacket",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "womensuit": {
+      "asset": "toigo_female_suit",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "twopiece": {
+      "asset": "mindfront_m_suit_01",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "casualsuit": {
+      "asset": "male_casualsuit01",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "fcasualsuit": {
+      "asset": "female_casualsuit01",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "eveningsuit": {
+      "asset": "male_elegantsuit01",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "coveralls": {
+      "asset": "elvs_male_coveralls_1",
+      "normalMap": true,
+      "hideFile": true
+    },
+    "jumpsuit": {
+      "asset": "elvs_halter_style_pantsuit1",
+      "normalMap": false,
+      "hideFile": true
+    },
+    "romper": {
+      "asset": "punkduck_halterneck_romper",
+      "normalMap": true,
+      "hideFile": true
+    }
+  }
+}

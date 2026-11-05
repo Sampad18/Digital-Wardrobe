@@ -42,3 +42,10 @@ next-env.d.ts
 
 # try-on profile (personal body measurements)
 /data/
+
+# MPFB build: downloaded Blender add-on and MakeHuman asset pack (re-downloadable, large)
+/tools/mpfb/.downloads/
+/tools/mpfb/.blender-user/
+
+# Node helpers for the MPFB build (decode_body_order.mjs)
+tools/mpfb/.node/

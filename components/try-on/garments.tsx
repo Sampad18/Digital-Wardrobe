@@ -19,13 +19,20 @@ export interface Garment {
   pattern?: { kind: "stripe"; color: string; widthCm: number; gapCm: number } | { kind: "print"; ink: string };
   /** Cut-out from the garment photo, placed on the drawn shape. */
   logo?: { src: string; placement: "left-chest"; widthCm: number };
+  /** MakeHuman garment the 3D mannequin wears for this item (built by tools/mpfb). */
+  model?: string;
+  /** A dress or one-piece: worn instead of both a top and a bottom. */
+  covers?: "full";
   details: string[];
-  source: "your photo" | "demo";
+  source: "your photo" | "demo" | "template";
+  /** Licence of the 3D template, for credits (CC-BY needs the author named). */
+  credit?: string;
 }
 
 export const WARDROBE: Garment[] = [
   {
     id: "lee-abbey-polo",
+    model: "polo",
     name: "Navy piqué polo",
     category: "top",
     type: "polo",
@@ -41,6 +48,7 @@ export const WARDROBE: Garment[] = [
   },
   {
     id: "printed-shorts",
+    model: "shorts",
     name: "Printed lounge shorts",
     category: "bottom",
     type: "shorts",
@@ -54,6 +62,7 @@ export const WARDROBE: Garment[] = [
   },
   {
     id: "bone-tee",
+    model: "tee",
     name: "Heavyweight tee · Bone",
     category: "top",
     type: "tee",
@@ -68,6 +77,7 @@ export const WARDROBE: Garment[] = [
   },
   {
     id: "breton",
+    model: "sweater",
     name: "Breton long sleeve",
     category: "top",
     type: "long-sleeve",
@@ -83,6 +93,7 @@ export const WARDROBE: Garment[] = [
   },
   {
     id: "ochre-tee",
+    model: "tee",
     name: "Oversized tee · Ochre",
     category: "top",
     type: "tee",

@@ -1,0 +1,830 @@
+[
+ {
+  "key": "basictee",
+  "asset": "toigo_basic_tucked_t-shirt",
+  "kind": "top",
+  "name": "Tucked tee · White",
+  "fit": "regular",
+  "color": "#EEECE7",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "womenstee",
+  "asset": "joepal_crude_t-shirt_female",
+  "kind": "top",
+  "name": "Fitted tee · Coral",
+  "fit": "slim",
+  "color": "#E08A74",
+  "credit": "Joepal, CC0"
+ },
+ {
+  "key": "camisole",
+  "asset": "toigo_camisole_top",
+  "kind": "top",
+  "name": "Camisole · Champagne",
+  "fit": "slim",
+  "color": "#E3CFAE",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "keyholetank",
+  "asset": "toigo_keyhole_tank_top",
+  "kind": "top",
+  "name": "Keyhole tank · Ochre",
+  "fit": "slim",
+  "color": "#C9963F",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "turtlehalter",
+  "asset": "toigo_turtleneck_halter_top",
+  "kind": "top",
+  "name": "Turtleneck halter · Plum",
+  "fit": "slim",
+  "color": "#6E3D5A",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "bodice",
+  "asset": "toigo_bodice-style_top",
+  "kind": "top",
+  "name": "Bodice top · Black",
+  "fit": "slim",
+  "color": "#2A2A2E",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "tieshirt",
+  "asset": "elvs_male_shirt_tie_tucked1",
+  "kind": "top",
+  "name": "Shirt and tie · White",
+  "fit": "regular",
+  "color": "#F0F0EC",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "stripedshirt",
+  "asset": "ews_striped_shirt",
+  "kind": "top",
+  "name": "Striped crop top · Navy",
+  "fit": "regular",
+  "color": "#34466B",
+  "credit": "ews, CC-BY"
+ },
+ {
+  "key": "oldsweater",
+  "asset": "janexx_old_female_sweater",
+  "kind": "top",
+  "name": "Worn sweater · Moss",
+  "fit": "relaxed",
+  "color": "#6F7A55",
+  "credit": "Janexx, CC-BY"
+ },
+ {
+  "key": "cardigan",
+  "asset": "mindfront_cardigan_long_open_front",
+  "kind": "top",
+  "name": "Long cardigan · Camel",
+  "fit": "relaxed",
+  "color": "#B58D62",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "knit2",
+  "asset": "mindfront_knitted_sweater_02",
+  "kind": "top",
+  "name": "Knit sweater · Cream",
+  "fit": "relaxed",
+  "color": "#E6DCC7",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "lusekofta",
+  "asset": "mindfront_lusekofta",
+  "kind": "top",
+  "name": "Nordic sweater · Red",
+  "fit": "relaxed",
+  "color": "#9E2F2F",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "laceblouse",
+  "asset": "punkduck_lace_up_blouse",
+  "kind": "top",
+  "name": "Lace-up blouse · Ivory",
+  "fit": "regular",
+  "color": "#EFE7D6",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "offshoulder",
+  "asset": "punkduck_off-shoulder_long-sleeve_top",
+  "kind": "top",
+  "name": "Off-shoulder top · Black",
+  "fit": "slim",
+  "color": "#26262B",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "bohotop",
+  "asset": "elvs_male_boho_top1",
+  "kind": "top",
+  "name": "Boho top · Sand",
+  "fit": "relaxed",
+  "color": "#CDB892",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "camotee",
+  "asset": "drednicolson_short-tail_camo_tee",
+  "kind": "top",
+  "name": "Short-tail tee · Olive",
+  "fit": "regular",
+  "color": "#6B7050",
+  "credit": "DredNicolson, CC-BY"
+ },
+ {
+  "key": "logotee",
+  "asset": "elvs_male_logo_tshirt1",
+  "kind": "top",
+  "name": "Graphic tee · Grey",
+  "fit": "regular",
+  "color": "#8E9196",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "muscle",
+  "asset": "elvs_male_muscle_shirt1",
+  "kind": "top",
+  "name": "Muscle shirt · Black",
+  "fit": "slim",
+  "color": "#2B2B2F",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "peasant",
+  "asset": "elvs_ruffle_sleeve_peasant_blouse_1",
+  "kind": "top",
+  "name": "Peasant blouse · White",
+  "fit": "relaxed",
+  "color": "#F2EFE8",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "tanktop",
+  "asset": "mindfront_tank_top_01",
+  "kind": "top",
+  "name": "Tank top · Heather",
+  "fit": "slim",
+  "color": "#A7A9AD",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "highneckcrop",
+  "asset": "punkduck_high_neck_crop_top",
+  "kind": "top",
+  "name": "High-neck crop top · Black",
+  "fit": "slim",
+  "color": "#252528",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "retrotop",
+  "asset": "punkduck_retro_top",
+  "kind": "top",
+  "name": "Retro top · Mustard",
+  "fit": "regular",
+  "color": "#C9A13B",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "sleevelesscrop",
+  "asset": "punkduck_sleeveless_crop_top",
+  "kind": "top",
+  "name": "Sleeveless crop · White",
+  "fit": "slim",
+  "color": "#EDEBE6",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "sleevelessshirt",
+  "asset": "punkduck_sleeveless_shirt",
+  "kind": "top",
+  "name": "Sleeveless shirt · Denim",
+  "fit": "regular",
+  "color": "#5D7695",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "spaghetti",
+  "asset": "punkduck_spaghetti_strap_tank_top",
+  "kind": "top",
+  "name": "Strappy cami · Blush",
+  "fit": "slim",
+  "color": "#E2B4B0",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "tubetop",
+  "asset": "punkduck_tube_top",
+  "kind": "top",
+  "name": "Tube top · Red",
+  "fit": "slim",
+  "color": "#B83A3A",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "wintercoat",
+  "asset": "punkduck_winter_coat",
+  "kind": "top",
+  "name": "Winter coat · Camel",
+  "fit": "relaxed",
+  "color": "#A9825A",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "harem",
+  "asset": "toigo_harem_pants",
+  "kind": "bottom",
+  "name": "Harem pants · Indigo",
+  "fit": "relaxed",
+  "color": "#3F4A7A",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "wool",
+  "asset": "toigo_wool_pants",
+  "kind": "bottom",
+  "name": "Wool trousers · Grey",
+  "fit": "regular",
+  "color": "#6C6E73",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "skinny",
+  "asset": "elvs_disco_pants_skinny",
+  "kind": "bottom",
+  "name": "Skinny pants · Black",
+  "fit": "slim",
+  "color": "#232326",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "elephant",
+  "asset": "elvs_gored_elephant_pants",
+  "kind": "bottom",
+  "name": "Wide-leg pants · Cream",
+  "fit": "relaxed",
+  "color": "#E3DACA",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "bootcut",
+  "asset": "elvs_jeans_bootcut",
+  "kind": "bottom",
+  "name": "Bootcut jeans · Mid blue",
+  "fit": "regular",
+  "color": "#4F6A92",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "straightjeans",
+  "asset": "elvs_jeans_straight_leg",
+  "kind": "bottom",
+  "name": "Straight jeans · Dark",
+  "fit": "regular",
+  "color": "#2F3B57",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "chaintrousers",
+  "asset": "elvs_male_trouser_with_chain",
+  "kind": "bottom",
+  "name": "Chain trousers · Black",
+  "fit": "regular",
+  "color": "#2A2A2D",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "womenstrousers",
+  "asset": "mindfront_female_trousers_1",
+  "kind": "bottom",
+  "name": "Tailored trousers · Navy",
+  "fit": "regular",
+  "color": "#2D3550",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "chinos",
+  "asset": "mindfront_male_trousers_1",
+  "kind": "bottom",
+  "name": "Chinos · Stone",
+  "fit": "regular",
+  "color": "#B9AE92",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "worktrousers",
+  "asset": "mindfront_male_trousers_2",
+  "kind": "bottom",
+  "name": "Work trousers · Olive",
+  "fit": "regular",
+  "color": "#5E6447",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "chinoshorts",
+  "asset": "elvs_male_trouser_short_2",
+  "kind": "bottom",
+  "name": "Chino shorts · Khaki",
+  "fit": "regular",
+  "color": "#A99B74",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "retroshorts",
+  "asset": "elvs_retro_girly_shorts1",
+  "kind": "bottom",
+  "name": "Retro shorts · Red",
+  "fit": "slim",
+  "color": "#B33A3A",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "shortjeans",
+  "asset": "punkduck_female_short_jeans",
+  "kind": "bottom",
+  "name": "Denim shorts · Light",
+  "fit": "slim",
+  "color": "#8FA6C4",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "swimshorts",
+  "asset": "elvs_male_swim_shorts1",
+  "kind": "bottom",
+  "name": "Swim shorts · Teal",
+  "fit": "regular",
+  "color": "#2E7C80",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "trunks",
+  "asset": "mindfront_male_swimming_trunks_01",
+  "kind": "bottom",
+  "name": "Swim trunks · Navy",
+  "fit": "slim",
+  "color": "#263457",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "miniskirt",
+  "asset": "frankyaye_mini_skirt_01",
+  "kind": "skirt",
+  "name": "Mini skirt · Black",
+  "fit": "slim",
+  "color": "#26262A",
+  "credit": "Frankyaye, CC0"
+ },
+ {
+  "key": "longskirt",
+  "asset": "toigo_long_full_skirt",
+  "kind": "skirt",
+  "name": "Long full skirt · Rust",
+  "fit": "relaxed",
+  "color": "#A4512F",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "tieredmini",
+  "asset": "toigo_tiered_mini_skirt",
+  "kind": "skirt",
+  "name": "Tiered mini · Black",
+  "fit": "relaxed",
+  "color": "#2A2A2D",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "tiered",
+  "asset": "toigo_tiered_skirt",
+  "kind": "skirt",
+  "name": "Tiered skirt · Lilac",
+  "fit": "relaxed",
+  "color": "#A893C2",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "laceruffle",
+  "asset": "toigo_skirt_with_lace_ruffle",
+  "kind": "skirt",
+  "name": "Lace-ruffle skirt · White",
+  "fit": "relaxed",
+  "color": "#EEEBE4",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "asymskirt",
+  "asset": "elvs_asymmetrical_skirt",
+  "kind": "skirt",
+  "name": "Asymmetric skirt · Teal",
+  "fit": "relaxed",
+  "color": "#2F6F6E",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "midi",
+  "asset": "elvs_gored_midi_skirt",
+  "kind": "skirt",
+  "name": "Gored midi skirt · Camel",
+  "fit": "relaxed",
+  "color": "#B08A5E",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "plaidmini",
+  "asset": "elvs_pleated_plaid_mini_skirt",
+  "kind": "skirt",
+  "name": "Pleated plaid mini · Red",
+  "fit": "relaxed",
+  "color": "#9E3434",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "pleatedmini",
+  "asset": "mtknife_pleated_mini_skirt",
+  "kind": "skirt",
+  "name": "Pleated mini · Navy",
+  "fit": "relaxed",
+  "color": "#2E3A5C",
+  "credit": "mtknife, CC-BY"
+ },
+ {
+  "key": "blackmini",
+  "asset": "punkduck_black_mini_skirt",
+  "kind": "skirt",
+  "name": "Leather mini · Black",
+  "fit": "slim",
+  "color": "#1F1F22",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "jeanskirt",
+  "asset": "punkduck_jeans_skirt",
+  "kind": "skirt",
+  "name": "Denim skirt · Blue",
+  "fit": "slim",
+  "color": "#56719A",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "polkaskirt",
+  "asset": "punkduck_retro_polka_dot_skirt",
+  "kind": "skirt",
+  "name": "Polka-dot skirt · Navy",
+  "fit": "relaxed",
+  "color": "#283559",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "denimmini",
+  "asset": "scsouza_mini_denin_skirt",
+  "kind": "skirt",
+  "name": "Denim mini · Light",
+  "fit": "slim",
+  "color": "#8BA3C4",
+  "credit": "scsouza, CC-BY"
+ },
+ {
+  "key": "flapper",
+  "asset": "aethelraed_flapper_dress",
+  "kind": "dress",
+  "name": "Flapper dress · Green",
+  "fit": "relaxed",
+  "color": "#3E6B4F",
+  "credit": "Aethelraed, CC0"
+ },
+ {
+  "key": "bodicedress",
+  "asset": "toigo_bodice_dress_with_lace_ruffle_skirt",
+  "kind": "dress",
+  "name": "Bodice dress · Black",
+  "fit": "regular",
+  "color": "#29292D",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "camidress",
+  "asset": "toigo_camisole_dress_with_full_skirt",
+  "kind": "dress",
+  "name": "Camisole dress · Sky",
+  "fit": "relaxed",
+  "color": "#9EBFDB",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "cutout",
+  "asset": "toigo_cut_out_dress",
+  "kind": "dress",
+  "name": "Cut-out dress · Red",
+  "fit": "slim",
+  "color": "#B23B3F",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "tiereddress",
+  "asset": "toigo_dress_with_tiered_skirt",
+  "kind": "dress",
+  "name": "Tiered dress · Coral",
+  "fit": "relaxed",
+  "color": "#E08770",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "haltermidi",
+  "asset": "toigo_halter_dress_midi",
+  "kind": "dress",
+  "name": "Halter midi · Navy",
+  "fit": "regular",
+  "color": "#2E3A5E",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "fluted",
+  "asset": "toigo_halter_dress_with_fluted_skirt",
+  "kind": "dress",
+  "name": "Fluted halter dress · Rose",
+  "fit": "relaxed",
+  "color": "#D49AA0",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "keyholedress",
+  "asset": "toigo_keyhole_neck_dress",
+  "kind": "dress",
+  "name": "Keyhole dress · Mono",
+  "fit": "regular",
+  "color": "#DAD7D0",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "ruffledress",
+  "asset": "toigo_strapless_ruffle_top_dress",
+  "kind": "dress",
+  "name": "Strapless ruffle dress · Black",
+  "fit": "regular",
+  "color": "#26262A",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "halterlong",
+  "asset": "elvs_halter_dress_long",
+  "kind": "dress",
+  "name": "Long halter dress · Wine",
+  "fit": "relaxed",
+  "color": "#6E2735",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "haltermini",
+  "asset": "elvs_halter_dress_mini",
+  "kind": "dress",
+  "name": "Mini halter dress · Teal",
+  "fit": "regular",
+  "color": "#2F7477",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "sixties",
+  "asset": "elvs_simple_60s_dress",
+  "kind": "dress",
+  "name": "60s dress · Mustard",
+  "fit": "regular",
+  "color": "#C8A23E",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "sheath",
+  "asset": "elvs_simple_fashion_dress_1",
+  "kind": "dress",
+  "name": "Sheath dress · Black",
+  "fit": "slim",
+  "color": "#222226",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "sheath2",
+  "asset": "elvs_simple_fashion_dress_2",
+  "kind": "dress",
+  "name": "Sheath dress · Cobalt",
+  "fit": "slim",
+  "color": "#2F4F9A",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "partydress",
+  "asset": "elvs_frilled_party_dress",
+  "kind": "dress",
+  "name": "Frilled party dress · Silver",
+  "fit": "relaxed",
+  "color": "#BFC2C7",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "hippy",
+  "asset": "elvs_fringe_hippy_dress",
+  "kind": "dress",
+  "name": "Fringe dress · Tan",
+  "fit": "relaxed",
+  "color": "#B58A5C",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "goddess",
+  "asset": "elvs_goddess_dress1",
+  "kind": "dress",
+  "name": "Goddess gown · Ivory",
+  "fit": "relaxed",
+  "color": "#EFE8D8",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "daydress",
+  "asset": "mindfront_f_dress_01",
+  "kind": "dress",
+  "name": "Day dress · Sage",
+  "fit": "regular",
+  "color": "#8FA58B",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "wrapdress",
+  "asset": "mindfront_f_dress_02",
+  "kind": "dress",
+  "name": "Wrap dress · Burgundy",
+  "fit": "regular",
+  "color": "#6E2B3A",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "pleateddress",
+  "asset": "mindfront_f_dress_03",
+  "kind": "dress",
+  "name": "Pleated dress · Navy",
+  "fit": "relaxed",
+  "color": "#2C3757",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "shirtdress",
+  "asset": "mindfront_f_dress_04",
+  "kind": "dress",
+  "name": "Shirt dress · Sky",
+  "fit": "regular",
+  "color": "#9DBAD6",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "cocktail",
+  "asset": "punkduck_black_cocktail_dress",
+  "kind": "dress",
+  "name": "Cocktail dress · Black",
+  "fit": "slim",
+  "color": "#1F1F23",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "gown",
+  "asset": "punkduck_evening_gown",
+  "kind": "dress",
+  "name": "Evening gown · Emerald",
+  "fit": "relaxed",
+  "color": "#1F5E48",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "tubedress",
+  "asset": "punkduck_tube_dress",
+  "kind": "dress",
+  "name": "Tube dress · Red",
+  "fit": "slim",
+  "color": "#AE3538",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "qipao",
+  "asset": "punkduck_middle_length_qipao",
+  "kind": "dress",
+  "name": "Qipao · Crimson",
+  "fit": "slim",
+  "color": "#9C2430",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "tennisdress",
+  "asset": "punkduck_tennis_dress",
+  "kind": "dress",
+  "name": "Tennis dress · White",
+  "fit": "regular",
+  "color": "#F1F0EC",
+  "credit": "punkduck, CC-BY"
+ },
+ {
+  "key": "hoodiedress",
+  "asset": "elvs_sporty_tracksuit_hoodie_dress1",
+  "kind": "dress",
+  "name": "Hoodie dress · Grey",
+  "fit": "relaxed",
+  "color": "#9B9EA3",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "kimono",
+  "asset": "mindfront_kimono",
+  "kind": "dress",
+  "name": "Kimono · Indigo",
+  "fit": "relaxed",
+  "color": "#2F3B66",
+  "credit": "Mindfront, CC0"
+ },
+ {
+  "key": "suittie",
+  "asset": "toigo_male_suit_tie_and_jacket",
+  "kind": "outfit",
+  "name": "Suit with tie · Charcoal",
+  "fit": "regular",
+  "color": "#3A3C42",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "womensuit",
+  "asset": "toigo_female_suit",
+  "kind": "outfit",
+  "name": "Women's suit · Navy",
+  "fit": "regular",
+  "color": "#2B3452",
+  "credit": "Margaret Toigo, CC0"
+ },
+ {
+  "key": "twopiece",
+  "asset": "mindfront_m_suit_01",
+  "kind": "outfit",
+  "name": "Two-piece suit · Grey",
+  "fit": "regular",
+  "color": "#5C5F66",
+  "credit": "Mindfront, CC-BY"
+ },
+ {
+  "key": "casualsuit",
+  "asset": "male_casualsuit01",
+  "kind": "outfit",
+  "name": "Casual outfit · Denim",
+  "fit": "regular",
+  "color": "#4C5F80",
+  "credit": "MakeHuman, CC0"
+ },
+ {
+  "key": "fcasualsuit",
+  "asset": "female_casualsuit01",
+  "kind": "outfit",
+  "name": "Casual outfit · Rose",
+  "fit": "regular",
+  "color": "#C98E93",
+  "credit": "MakeHuman, CC0"
+ },
+ {
+  "key": "eveningsuit",
+  "asset": "male_elegantsuit01",
+  "kind": "outfit",
+  "name": "Evening suit · Black",
+  "fit": "regular",
+  "color": "#26272B",
+  "credit": "MakeHuman, CC0"
+ },
+ {
+  "key": "coveralls",
+  "asset": "elvs_male_coveralls_1",
+  "kind": "outfit",
+  "name": "Coveralls · Navy",
+  "fit": "relaxed",
+  "color": "#2E3B57",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "jumpsuit",
+  "asset": "elvs_halter_style_pantsuit1",
+  "kind": "outfit",
+  "name": "Halter jumpsuit · Black",
+  "fit": "regular",
+  "color": "#262629",
+  "credit": "Elvaerwyn, CC-BY"
+ },
+ {
+  "key": "romper",
+  "asset": "punkduck_halterneck_romper",
+  "kind": "outfit",
+  "name": "Halter romper · Pink",
+  "fit": "regular",
+  "color": "#D6A1A8",
+  "credit": "punkduck, CC-BY"
+ }
+]

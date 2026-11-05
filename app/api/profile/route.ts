@@ -21,6 +21,11 @@ export async function GET() {
 export async function PUT(request: Request) {
   const profile = parseProfile(await request.json().catch(() => null));
   if (!profile) return Response.json({ error: "Profile is missing fields or has out-of-range values" }, { status: 400 });
+  // The 2D studio doesn't know about the 3D appearance; keep the saved one rather than dropping it.
+  if (!profile.appearance) {
+    const previous = parseProfile(JSON.parse(await readFile(FILE, "utf8").catch(() => "null")));
+    if (previous?.appearance) profile.appearance = previous.appearance;
+  }
   const saved = { ...profile, updatedAt: new Date().toISOString() };
   await mkdir(path.dirname(FILE), { recursive: true });
   // Write then rename, so a crash mid-write never leaves a half-written file behind.
